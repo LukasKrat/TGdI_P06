@@ -1,0 +1,48 @@
+[files]
+current_page=0
+FILE_NAME_0=0;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi1%2Fprojekte%2FA1_A6_pwm%2FA1_A6_pwm.c;c;0;4
+FILE_NAME_1=%2Fusr%2Flocal%2Finclude%2Fbcm2835.h
+
+[editor]
+line_wrapping=false
+line_break_column=72
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=true
+detect_indent_width=true
+indent_mode=2
+
+[project]
+name=A6_pwm
+base_path=/home/pi1/projekte/A6_pwm/
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[VTE]
+last_dir=/home/pi1
+
+[build-menu]
+EX_00_LB=_Execute
+EX_00_CM=sudo "./%e"
+EX_00_WD=
+CFT_00_LB=_Compile
+CFT_00_CM=gcc -Wall -Wconversion -c "%f" 
+CFT_00_WD=
+CFT_01_LB=_Build
+CFT_01_CM=gcc -Wall -Wconversion -o "%e" "%f" -l bcm2835
+CFT_01_WD=
+filetypes=C;
